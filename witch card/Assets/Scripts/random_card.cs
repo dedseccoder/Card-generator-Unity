@@ -12,6 +12,7 @@ public class random_card : MonoBehaviour
     void Start()
     {
         gameObject.GetComponent<RawImage>().texture = cards[card_num].picture;
+        attach.main_card2.GetComponent<RawImage>().texture = cards[card_num].picture;
         attach.ok_button.SetActive(true);
         attach.scroll_text.GetComponent<Text>().text = cards[card_num].text;
     }
@@ -19,7 +20,8 @@ public class random_card : MonoBehaviour
     public void OkButton ()
     {
         attach.card_box.SetActive(false);
-        attach.main_card.transform.position = new Vector2 (740 , 2200);
+        attach.main_card2.SetActive(true);
+        attach.main_card.SetActive(false);
         attach.scroll.SetActive(true);
         attach.ok_button.SetActive(false);
         attach.restart.SetActive(true);

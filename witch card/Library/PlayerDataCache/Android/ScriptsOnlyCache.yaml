@@ -72,17 +72,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10656}
     - Class: 114
-      Script: {instanceID: 11154}
+      Script: {instanceID: 10944}
     - Class: 114
-      Script: {instanceID: 11156}
+      Script: {instanceID: 11068}
     - Class: 114
-      Script: {instanceID: 11334}
+      Script: {instanceID: 11158}
     - Class: 114
-      Script: {instanceID: 11528}
+      Script: {instanceID: 11160}
     - Class: 114
-      Script: {instanceID: 17734}
+      Script: {instanceID: 11338}
     - Class: 114
-      Script: {instanceID: 28264}
+      Script: {instanceID: 11532}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -514,10 +514,22 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: attach
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Restart
   - hash:
       serializedVersion: 2
       Hash: ee0cef6caaac8ae485bfa82f000f0f7b
@@ -656,20 +668,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: attach
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Restart
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   playerPath: C:/Users/Admin/source/repos/C#/unity/projeckts/witch card/Build/Witch
-    Card.apk
+    Card2.apk
